@@ -1,12 +1,11 @@
 def main():
-    ##################################################
-    # Complete your code here
-    ##################################################
-    
+    number = int(input("Enter a number "))
 
-    ########################################
-    # Do not delete the return statement
-    ########################################
+    if number %2 == 1:
+        result = 1
+    else:
+        result = 0
+
     if result:
         print(f'The value {number} is an odd number')
     else:
